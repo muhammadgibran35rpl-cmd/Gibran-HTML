@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            Praktek Form
+        </title>
+    </head>
+    <body>
+        <h2>Form Pendaftran SPMB</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" required placeholder="masukkan Nama"><br></td>
+                </tr>
+                <tr>
+                    <td><label>No HP</label></td>
+                    <td>:</td>
+                    <td><input type="number" required placeholder="masukkan No HP"><br></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label>Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="date" required><br></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" required placeholder="masukkan Email"><br></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td>:</td>
+                    <td><input type="password" required placeholder="masukkan Password"><br></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label>jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td><input type="radio" name="jeniskelamin" value="L" required>Laki-laki
+                        <input type="radio" name="jeniskelamin" value="P" required>Perempuan<br></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label>Sub Organ</label></td>
+                    <td>:</td>
+                    <td><input type="checkbox" name="suborgan" value="MAC" required><br>
+                        <input type="checkbox" name="suborgan" value="Paskatema" required>Paskatema<br>
+                        <input type="checkbox" name="suborgan" value="Memo" required>Memo<br>
+                        <input type="checkbox" name="suborgan" value="Metic" required>Metic<br>
+                        <input type="checkbox" name="suborgan" value="Comet" required>Comet<br>
+                        <input type="checkbox" name="suborgan" value="IRC" required>IRC<br>
+                        <input type="checkbox" name="suborgan" value="Basket" required>Basket<br>
+                        <input type="checkbox" name="suborgan" value="IRC" required>IRC<br></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label>jurusan</label></td>
+                    <td>:</td>
+                    <td><input type="radio" name="jurusan" value="RPL" required>RPL<br>
+                        <input type="radio" name="jurusan" value="TKJ" required>TKJ<br>
+                        <input type="radio" name="jurusan" value="PG" required>PG<br>
+                    
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label>Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea placeholder="Alamat" required></textarea><br></td>
+                    <td><label>Upload Foto</label>
+                        <input type="file" name="foto" accept="image/*" required><br>
+                    </td>
+                </tr>
+            </table>
+
+            <button type="submit">Kirim</button>
+
+        </form>
+    </body>
+</html>
