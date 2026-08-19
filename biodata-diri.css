@@ -1,0 +1,22 @@
+.nama {
+    background-color: greenyellow;
+    font-family: bold;
+}
+.kelas {
+    background-color:red;
+    font-weight: bold;
+}
+#hobi {
+    color: brown;
+    font-family: bold;
+    text-align: left;
+}
+#motto-diri{
+    color: yellowgreen;
+    font-family: bold;
+    text-align: left
+}
+p {
+    background-color: bisque;
+    font-family: bold;
+}
